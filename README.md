@@ -75,10 +75,5 @@ Se implementan tres tablas principales:
 
 ---
 
-## 🖥️ Instrucciones de Ejecución  
 
-1. Asegúrate de tener **Python 3.10 o superior** instalado.  
-2. Abre el proyecto en **Visual Studio Code**.  
-3. Ejecuta el archivo **`Parcial2_PabloRodriguez.ipynb`** desde Jupyter Notebook o el entorno de VS Code.  
-4. Al iniciar, el sistema mostrará el siguiente menú:  
 
