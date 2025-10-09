@@ -1,0 +1,14 @@
+INSERT INTO Tutores VALUES (1, 'Juan Pablo Camacho', 'POO', 3);
+INSERT INTO Tutores VALUES (2, 'María Rojas', 'Estadística', 5);
+
+INSERT INTO Estudiantes VALUES (1, 'Camila Díaz', 'Administración', 4);
+INSERT INTO Estudiantes VALUES (2, 'Daniel Ruiz', 'Derecho', 2);
+
+INSERT INTO Tutorias VALUES (1, 1, 1, '2025-10-12', '09:00', 'Clases abstractas', 60);
+INSERT INTO Tutorias VALUES (2, 2, 2, '2025-10-13', '11:00', 'Distribución Normal', 45);
+
+INSERT INTO Pagos VALUES (1, 1, 40000, 'Nequi');
+INSERT INTO Pagos VALUES (2, 2, 35000, 'Efectivo');
+
+INSERT INTO Calificaciones VALUES (1, 1, 4.8, 'Muy buena explicación');
+INSERT INTO Calificaciones VALUES (2, 2, 4.2, 'Le faltó un poco más de práctica');
