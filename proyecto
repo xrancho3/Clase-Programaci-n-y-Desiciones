@@ -1,0 +1,31 @@
+# Proyecto: De los Datos Crudos al Insight Gerencial
+Juan Pacheco, Mateo Morales, Juan Camacho
+Programación y Decisiones - Taller Final
+Universidad de la Sabana - Programación y Decisiones 
+
+## Objetivo
+Analizar la relación entre desempeño financiero empresarial, empleo regional y exportaciones No Minero-Energéticas en Colombia. Entregables: notebook (.ipynb), 3 CSV limpios, y archivo Power BI (.pbix).
+
+## Fuentes
+- Superintendencia de Sociedades (SIIS) — Reportes masivos / 1000 o 10k empresas. :contentReference[oaicite:7]{index=7}
+- DANE — Microdatos GEIH (descarga desde microdatos.dane.gov.co). :contentReference[oaicite:8]{index=8}
+- Datos Abiertos — Exportaciones No Minero-Energéticas (dataset NME). :contentReference[oaicite:9]{index=9}
+
+## Archivos
+- `notebooks/taller_final_programacion.ipynb`  (Notebook con limpieza y export)
+- `data/raw/`  (archivos originales; si son pesados, subir solo enlaces)
+- `data/clean/finanzas_clean.csv`
+- `data/clean/empleo_clean.csv`
+- `data/clean/exportaciones_clean.csv`
+- `powerbi/`  (instrucciones y medidas DAX)
+- `/mnt/data/U_Sabana_Programacion_Taller_3.pdf` (rúbrica). :contentReference[oaicite:10]{index=10}
+
+## Cómo reproducir
+1. Ejecutar el notebook `taller_final_programacion.ipynb` (asegúrate de descargar manualmente los archivos si alguna URL no funcionó).
+2. Verificar `data/clean` y abrir los CSV en Power BI Desktop.
+3. Seguir las instrucciones en `powerbi/README_powerbi.txt` (medidas DAX + relaciones) para crear el .pbix.
+4. Subir .ipynb, .pbix y README al repositorio y enviar el link en Teams.
+
+## Notas
+- Las decisiones de limpieza están documentadas en Markdown dentro del notebook (justificación y criterios).
+- Validaciones incluidas (asserts y conteos) para cumplir con la calificación de “Análisis y Limpieza en Python”.
